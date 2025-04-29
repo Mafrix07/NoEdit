@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulaire de Connexion</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <div class="form-container">
+    <h2>Viens tester notre jeu 2D fait main(chat gpt..)</h2>
+    <h2>Inscription</h2>
+    <form id="signup-form">
+      <input type="text" name="username" placeholder="Nom d'utilisateur" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="password" name="password" placeholder="Mot de passe" required />
+      <button type="submit">S'inscrire</button>
+    </form>
+  </div>
 
-
-
-
-
-    <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
