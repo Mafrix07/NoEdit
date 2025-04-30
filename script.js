@@ -1,5 +1,5 @@
 (function() {
-    emailjs.init("-gVB8zMtb5oVeC5TO"); // Remplacer par votre User ID EmailJS
+    emailjs.init("-gVB8zMtb5oVeC5TO"); 
   
     document.getElementById("signup-form").addEventListener("submit", function(e) {
       e.preventDefault();
