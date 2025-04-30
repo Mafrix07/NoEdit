@@ -95,5 +95,13 @@
   .welcome-image:hover {
     transform: scale(1.02);
   }
-  
+ .back-home {
+  display: block;
+  margin: 20px;
+  text-align: center;
+  color: #ff69b4;
+  text-decoration: none;
+  font-weight: bold;
+}
+ 
   
